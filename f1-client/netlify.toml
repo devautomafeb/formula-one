@@ -1,0 +1,7 @@
+[build]
+  base = "f1-client"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_API_URL = "VITE_API_URL=https://formula-one-q7na.onrender.com"
